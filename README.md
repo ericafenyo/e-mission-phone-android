@@ -1,2 +1,3 @@
-# trip-data-collection
-An android library that gathers data about users travel patterns. The data collection uses a geofence for duty cycling, the fused API for location, and the built-in activity recognition for segmentation.
+# Trip data collection
+The project builds upon [previous work](https://github.com/e-mission) created by [Shankari](https://github.com/shankari).
+I want to easily track the project upstream, add personal improvements and test the Android section in isolation; since she used Cordova for the client side.
