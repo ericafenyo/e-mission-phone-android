@@ -1,2 +1,3 @@
+include ':lib:data-collection'
 include ':sample'
 rootProject.name = "sample"
