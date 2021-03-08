@@ -1,3 +1,6 @@
 [submodule "plugins/e-mission-data-collection"]
 	path = plugins/e-mission-data-collection
 	url = https://github.com/e-mission/e-mission-data-collection.git
+[submodule "plugins/cordova-usercache"]
+	path = plugins/cordova-usercache
+	url = https://github.com/e-mission/cordova-usercache.git
