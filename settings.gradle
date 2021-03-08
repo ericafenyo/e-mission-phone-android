@@ -1,3 +1,5 @@
+include ':lib:usercache'
 include ':lib:data-collection'
 include ':sample'
+include ':bom'
 rootProject.name = "sample"
