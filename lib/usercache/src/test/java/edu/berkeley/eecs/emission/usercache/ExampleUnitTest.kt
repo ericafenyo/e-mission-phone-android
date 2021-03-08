@@ -31,45 +31,20 @@
  *
  */
 
-plugins {
-    id 'com.android.library'
-    id 'kotlin-android'
-}
+package edu.berkeley.eecs.emission.usercache
 
-android {
-    compileSdkVersion 30
-    buildToolsVersion "30.0.2"
+import org.junit.Test
 
-    defaultConfig {
-        minSdkVersion 21
-        targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+import org.junit.Assert.*
 
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        consumerProguardFiles "consumer-rules.pro"
-    }
-
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
-        }
-    }
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
-    }
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
-}
-
-dependencies {
-    implementation(platform(project(":bom")))
-
-    implementation(Lib.KOTLIN_STDLIB)
-    implementation(Lib.GOOGLE_PLAY_SERVICES_LOCATION)
-    implementation(Lib.GSON)
-    implementation(Lib.JUNIT)
+/**
+ * Example local unit test, which will execute on the development machine (host).
+ *
+ * See [testing documentation](http://d.android.com/tools/testing).
+ */
+class ExampleUnitTest {
+  @Test
+  fun addition_isCorrect() {
+    assertEquals(4, 2 + 2)
+  }
 }

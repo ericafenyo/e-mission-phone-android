@@ -69,7 +69,6 @@ dependencies {
     implementation(platform(project(":bom")))
 
     implementation(Lib.KOTLIN_STDLIB)
-    implementation(Lib.GOOGLE_PLAY_SERVICES_LOCATION)
     implementation(Lib.GSON)
     implementation(Lib.JUNIT)
 }
