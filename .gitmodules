@@ -4,3 +4,6 @@
 [submodule "plugins/cordova-usercache"]
 	path = plugins/cordova-usercache
 	url = https://github.com/e-mission/cordova-usercache.git
+[submodule "plugins/cordova-unified-logger"]
+	path = plugins/cordova-unified-logger
+	url = git@github.com:ericafenyo/cordova-unified-logger.git
