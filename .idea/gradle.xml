@@ -17,6 +17,7 @@
             <option value="$PROJECT_DIR$/buildSrc" />
             <option value="$PROJECT_DIR$/lib" />
             <option value="$PROJECT_DIR$/lib/data-collection" />
+            <option value="$PROJECT_DIR$/lib/unified-logger" />
             <option value="$PROJECT_DIR$/lib/usercache" />
             <option value="$PROJECT_DIR$/sample" />
           </set>
