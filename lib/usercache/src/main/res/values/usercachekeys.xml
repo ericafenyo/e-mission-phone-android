@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key.usercache.location">background/location</string>
+    <string name="key.usercache.filtered_location">background/filtered_location</string>
+    <string name="key.usercache.activity">background/motion_activity</string>
+    <string name="key.usercache.accelerometer">background/accelerometer</string>
+    <string name="key.usercache.battery">background/battery</string>
+    <string name="key.usercache.sensor_config">config/sensor_config</string>
+    <string name="key.usercache.sync_config">config/sync_config</string>
+    <string name="key.usercache.consent_config">config/consent</string>
+    <string name="key.usercache.transition">statemachine/transition</string>
+    <string name="key.usercache.client_time">stats/client_time</string>
+    <string name="key.usercache.client_nav_event">stats/client_nav_event</string>
+    <string name="key.usercache.client_error">stats/client_error</string>
+    <string name="metadata.usercache.write_ts">write_ts</string>
+</resources>

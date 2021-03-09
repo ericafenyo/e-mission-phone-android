@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_launched">app_launched</string>
+    <string name="sync_launched">sync_launched</string>
+    <string name="sync_push_list_size">sync_push_list_size</string>
+    <string name="sync_pull_list_size">sync_pull_list_size</string>
+    <string name="sync_duration">sync_duration</string>
+    <string name="pull_duration">pull_duration</string>
+    <string name="push_duration">push_duration</string>
+</resources>
