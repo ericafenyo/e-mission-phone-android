@@ -26,6 +26,8 @@ https://medium.com/@alexander.volminger/ci-cd-for-java-maven-using-github-action
 Though we can solve the current situation with this method, I discovered that some plugins contain [androud resource] (https://developer.android.com/guide/topics/resources/providing-resources) files, and we can't easily store resources in the JAR file.
 In the meantime, I will add the plugins as git submodules and pull updates if necessary. Then construct an android library module for each plugin.
 
+> @see [Pushing AARs to Maven Central](https://chris.banes.dev/pushing-aars-to-maven-central/)
+
 ## License
 
 This project is licensed under the BSD 3-Clause License - see the [LICENSE](LICENSE) file for details.
